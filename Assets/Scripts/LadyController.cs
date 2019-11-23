@@ -82,14 +82,14 @@ public class LadyController : MonoBehaviour
             // Kondisi ketika bergerak ke kekanan
             if (!isJump) anim.SetTrigger("run");
             transform.Translate(1 * Time.deltaTime * 5f, 0, 0);
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            //transform.localScale = new Vector3(1f, 1f, 1f);
         }
         if (idMove == 2 && !isDead)
         {
             // Kondisi ketika bergerak ke kiri
             if (!isJump) anim.SetTrigger("run");
             transform.Translate(-1 * Time.deltaTime * 5f, 0, 0);
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            //transform.localScale = new Vector3(-1f, 1f, 1f);
         }
     }
 
