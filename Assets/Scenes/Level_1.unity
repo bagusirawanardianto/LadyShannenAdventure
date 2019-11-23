@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 377851343}
   - component: {fileID: 377851344}
   m_Layer: 0
-  m_Name: Ground4
+  m_Name: Ground7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1072,7 +1072,7 @@ Transform:
   m_LocalScale: {x: 3.323, y: 2.608, z: 1}
   m_Children: []
   m_Father: {fileID: 1651067546}
-  m_RootOrder: 0
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &377851343
 SpriteRenderer:
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 405255802}
   - component: {fileID: 405255803}
   m_Layer: 0
-  m_Name: Ombak20 (1)
+  m_Name: Ombak1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1325,7 +1325,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1651067546}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &465492153
 SpriteRenderer:
@@ -1755,7 +1755,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1651067546}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &688058099
 BoxCollider2D:
@@ -1795,7 +1795,7 @@ GameObject:
   - component: {fileID: 698541918}
   - component: {fileID: 698541919}
   m_Layer: 0
-  m_Name: Ground4 (2)
+  m_Name: Ground6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1813,7 +1813,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1651067546}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &698541918
 SpriteRenderer:
@@ -1982,7 +1982,7 @@ GameObject:
   - component: {fileID: 838460655}
   - component: {fileID: 838460656}
   m_Layer: 0
-  m_Name: Ground4 (1)
+  m_Name: Ground5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2000,7 +2000,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1651067546}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &838460655
 SpriteRenderer:
@@ -2347,7 +2347,7 @@ Transform:
   m_LocalScale: {x: 1.234, y: 1.651, z: 1}
   m_Children: []
   m_Father: {fileID: 1651067546}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1159812915
 SpriteRenderer:
@@ -2675,7 +2675,7 @@ GameObject:
   - component: {fileID: 1398315486}
   - component: {fileID: 1398315487}
   m_Layer: 0
-  m_Name: Ombak20 (2)
+  m_Name: Ombak2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2854,7 +2854,7 @@ Transform:
   m_LocalScale: {x: 1.1743146, y: 1.150677, z: 1}
   m_Children: []
   m_Father: {fileID: 1651067546}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1613218606
 SpriteRenderer:
@@ -3039,7 +3039,6 @@ Transform:
   m_LocalPosition: {x: 12.334138, y: -0.7227918, z: -20.902344}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 377851342}
   - {fileID: 688058098}
   - {fileID: 1159812914}
   - {fileID: 1783954932}
@@ -3047,6 +3046,7 @@ Transform:
   - {fileID: 465492152}
   - {fileID: 838460654}
   - {fileID: 698541917}
+  - {fileID: 377851342}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3187,7 +3187,7 @@ GameObject:
   - component: {fileID: 1751033315}
   - component: {fileID: 1751033316}
   m_Layer: 0
-  m_Name: Ombak20
+  m_Name: Omba
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3286,7 +3286,7 @@ Transform:
   m_LocalScale: {x: 0.77265, y: 0.789078, z: 1}
   m_Children: []
   m_Father: {fileID: 1651067546}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1783954933
 SpriteRenderer:
@@ -3534,7 +3534,7 @@ GameObject:
   - component: {fileID: 2047131412}
   - component: {fileID: 2047131413}
   m_Layer: 0
-  m_Name: Ombak20 (3)
+  m_Name: Ombak3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
