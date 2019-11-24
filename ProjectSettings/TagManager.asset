@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Lady
+  - Coin
+  - Trap
+  - SpecialItem
   layers:
   - Default
   - TransparentFX
@@ -40,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Backgorund
+    uniqueID: 83616097
+    locked: 0
+  - name: Midground
+    uniqueID: 1236066793
+    locked: 0
+  - name: Foreground
+    uniqueID: 3868246523
     locked: 0

@@ -7,7 +7,11 @@ public class LadyController : MonoBehaviour
 {
     bool isJump = true;
     bool isDead = false;
+    bool isSuperJump = false;
+
     int idMove = 0;
+    int superJump = 0;
+
     Animator anim;
 
     // Use this for initialization
@@ -98,8 +102,16 @@ public class LadyController : MonoBehaviour
     {
         if (!isJump)
         {
-            // Kondisi ketika Loncat           
-            gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 300f);
+            // Kondisi ketika Loncat      
+            if (isSuperJump == true)
+            {
+                gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 400f);
+                isSuperJump = false;
+            }
+            else
+            {
+                gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 300f);
+            }
         }
     }
 
@@ -108,6 +120,12 @@ public class LadyController : MonoBehaviour
         if (collision.transform.tag.Equals("Coin"))
         {
             Coins.score += 15;
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.transform.tag.Equals("SpecialItem"))
+        {
+            superJump = 1;
             Destroy(collision.gameObject);
         }
     }
@@ -134,6 +152,15 @@ public class LadyController : MonoBehaviour
                 isDead = true;
                 SceneManager.LoadScene("GameOver");
             }
+        }
+    }
+
+    public void useSpecialItem()
+    {
+        if (superJump > 0)
+        {
+            isSuperJump = true;
+            superJump = 0;
         }
     }
 
