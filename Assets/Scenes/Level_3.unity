@@ -1000,6 +1000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 494989170}
   - component: {fileID: 494989171}
+  - component: {fileID: 494989172}
   m_Layer: 0
   m_Name: Crate (2)
   m_TagString: Untagged
@@ -1070,6 +1071,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &494989172
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494989169}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.01, y: 1.01}
+    newSize: {x: 1.01, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.01, y: 1.01}
+  m_EdgeRadius: 0
 --- !u!1 &498127283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,8 +1301,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1100570917
-  m_SortingLayer: 2
+  m_SortingLayerID: 1087881265
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b493b0a3b7f059744a0f8bb58b7c30b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1312,6 +1339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 553208059}
   - component: {fileID: 553208060}
+  - component: {fileID: 553208061}
   m_Layer: 0
   m_Name: Ground20
   m_TagString: Untagged
@@ -1382,6 +1410,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &553208061
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553208058}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.93, y: 2.99}
+    newSize: {x: 7.93, y: 2.99}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.93, y: 2.99}
+  m_EdgeRadius: 0
 --- !u!1 &581387047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,6 +1852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709207592}
   - component: {fileID: 709207591}
+  - component: {fileID: 709207593}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -1868,6 +1923,32 @@ Transform:
   m_Father: {fileID: 705321329}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &709207593
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709207590}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.01, y: 1.01}
+    newSize: {x: 1.01, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.01, y: 1.01}
+  m_EdgeRadius: 0
 --- !u!1 &712079093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,8 +2241,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1183536563
-  m_SortingLayer: 3
+  m_SortingLayerID: -1100570917
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9312755b238a50449fcbd128e891b3a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2198,6 +2279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 911458797}
   - component: {fileID: 911458798}
+  - component: {fileID: 911458799}
   m_Layer: 0
   m_Name: Ground21
   m_TagString: Untagged
@@ -2268,6 +2350,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &911458799
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911458796}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.48, y: 4.26}
+    newSize: {x: 8.48, y: 4.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.48, y: 4.26}
+  m_EdgeRadius: 0
 --- !u!1 &932929419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,6 +2546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035763992}
   - component: {fileID: 1035763991}
+  - component: {fileID: 1035763993}
   m_Layer: 0
   m_Name: Ground23 (1)
   m_TagString: Untagged
@@ -2508,6 +2617,32 @@ Transform:
   m_Father: {fileID: 103594851}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1035763993
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035763990}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.99, y: 0.74}
+    newSize: {x: 5.99, y: 0.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.99, y: 0.74}
+  m_EdgeRadius: 0
 --- !u!1 &1053185062
 GameObject:
   m_ObjectHideFlags: 0
@@ -2758,6 +2893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1182825536}
   - component: {fileID: 1182825535}
+  - component: {fileID: 1182825537}
   m_Layer: 0
   m_Name: Ground22
   m_TagString: Untagged
@@ -2828,6 +2964,32 @@ Transform:
   m_Father: {fileID: 103594851}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1182825537
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182825534}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.98, y: 4.68}
+    newSize: {x: 6.98, y: 4.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.98, y: 4.68}
+  m_EdgeRadius: 0
 --- !u!1 &1192360393
 GameObject:
   m_ObjectHideFlags: 0
@@ -3360,8 +3522,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1183536563
-  m_SortingLayer: 3
+  m_SortingLayerID: -1100570917
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e52575ba9060e754ebe95accb4a18a5e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3478,6 +3640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1322677341}
   - component: {fileID: 1322677342}
+  - component: {fileID: 1322677343}
   m_Layer: 0
   m_Name: Crate (3)
   m_TagString: Untagged
@@ -3548,6 +3711,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1322677343
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322677340}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.01, y: 1.01}
+    newSize: {x: 1.01, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.01, y: 1.01}
+  m_EdgeRadius: 0
 --- !u!1 &1323520036
 GameObject:
   m_ObjectHideFlags: 0
@@ -3798,6 +3987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402190602}
   - component: {fileID: 1402190603}
+  - component: {fileID: 1402190604}
   m_Layer: 0
   m_Name: Crate (1)
   m_TagString: Untagged
@@ -3868,6 +4058,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1402190604
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402190601}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.01, y: 1.01}
+    newSize: {x: 1.01, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.01, y: 1.01}
+  m_EdgeRadius: 0
 --- !u!1 &1403877641
 GameObject:
   m_ObjectHideFlags: 0
@@ -3878,6 +4094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1403877643}
   - component: {fileID: 1403877642}
+  - component: {fileID: 1403877644}
   m_Layer: 0
   m_Name: StoneBlock
   m_TagString: Untagged
@@ -3948,6 +4165,32 @@ Transform:
   m_Father: {fileID: 705321329}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1403877644
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403877641}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.01, y: 0.99}
+    newSize: {x: 1.01, y: 0.99}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.01, y: 0.99}
+  m_EdgeRadius: 0
 --- !u!1 &1433948123
 GameObject:
   m_ObjectHideFlags: 0
@@ -4038,6 +4281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498977966}
   - component: {fileID: 1498977965}
+  - component: {fileID: 1498977967}
   m_Layer: 0
   m_Name: Ground23
   m_TagString: Untagged
@@ -4108,6 +4352,32 @@ Transform:
   m_Father: {fileID: 103594851}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1498977967
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498977964}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.99, y: 0.74}
+    newSize: {x: 5.99, y: 0.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.99, y: 0.74}
+  m_EdgeRadius: 0
 --- !u!1 &1542525712
 GameObject:
   m_ObjectHideFlags: 0
@@ -4438,6 +4708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602281193}
   - component: {fileID: 1602281192}
+  - component: {fileID: 1602281194}
   m_Layer: 0
   m_Name: Ground24
   m_TagString: Untagged
@@ -4508,6 +4779,32 @@ Transform:
   m_Father: {fileID: 103594851}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1602281194
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602281191}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.88, y: 1.32}
+    newSize: {x: 4.88, y: 1.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.88, y: 1.32}
+  m_EdgeRadius: 0
 --- !u!1 &1621758113
 GameObject:
   m_ObjectHideFlags: 0
@@ -4678,6 +4975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1673155387}
   - component: {fileID: 1673155388}
+  - component: {fileID: 1673155389}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -4748,6 +5046,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1673155389
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673155386}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.01, y: 1.01}
+    newSize: {x: 1.01, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.01, y: 1.01}
+  m_EdgeRadius: 0
 --- !u!1 &1704788328
 GameObject:
   m_ObjectHideFlags: 0
@@ -4918,6 +5242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1778293989}
   - component: {fileID: 1778293988}
+  - component: {fileID: 1778293990}
   m_Layer: 0
   m_Name: StoneBlock (1)
   m_TagString: Untagged
@@ -4988,6 +5313,32 @@ Transform:
   m_Father: {fileID: 705321329}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1778293990
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778293987}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.01, y: 0.99}
+    newSize: {x: 1.01, y: 0.99}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.01, y: 0.99}
+  m_EdgeRadius: 0
 --- !u!1 &1840370886
 GameObject:
   m_ObjectHideFlags: 0
@@ -4998,6 +5349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840370888}
   - component: {fileID: 1840370887}
+  - component: {fileID: 1840370889}
   m_Layer: 0
   m_Name: StoneBlock (2)
   m_TagString: Untagged
@@ -5068,6 +5420,32 @@ Transform:
   m_Father: {fileID: 705321329}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1840370889
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840370886}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.01, y: 0.99}
+    newSize: {x: 1.01, y: 0.99}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.01, y: 0.99}
+  m_EdgeRadius: 0
 --- !u!1 &1860596449
 GameObject:
   m_ObjectHideFlags: 0
@@ -5241,8 +5619,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1183536563
-  m_SortingLayer: 3
+  m_SortingLayerID: -1100570917
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 88040e40e304ddb4393799a1e0c1d232, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
