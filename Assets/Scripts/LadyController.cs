@@ -14,6 +14,7 @@ public class LadyController : MonoBehaviour
     private void Start()
     {
         anim = GetComponent<Animator>();
+        Coins.scene = SceneManager.GetActiveScene().buildIndex;
     }
 
     // Update is called once per frame
@@ -106,7 +107,7 @@ public class LadyController : MonoBehaviour
     {
         if (collision.transform.tag.Equals("Coin"))
         {
-            //Data.score += 15;
+            Coins.score += 15;
             Destroy(collision.gameObject);
         }
     }
@@ -131,6 +132,7 @@ public class LadyController : MonoBehaviour
             {
                 // kondisi ketika jatuh
                 isDead = true;
+                SceneManager.LoadScene("GameOver");
             }
         }
     }
