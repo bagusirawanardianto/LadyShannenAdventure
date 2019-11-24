@@ -18,7 +18,16 @@ public class QuitOrNext : MonoBehaviour
 	{
 	    if (collision.tag.Equals("Lady"))
 	    {
-	        SceneManager.LoadScene("LevelComplete");
+
+            if(Coins.scene == 3)
+            {
+                SceneManager.LoadScene("Congratulations");
+            }
+            else
+            {
+                SceneManager.LoadScene("LevelComplete");
+            }
+
 	    }
 	}
 

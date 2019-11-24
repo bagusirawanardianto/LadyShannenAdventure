@@ -10,9 +10,17 @@ public class LevelComplete : MonoBehaviour
     public Text txHighScore;
     int highscore;
 
+    public AudioClip audioWin;
+    private AudioSource MPWin;
+
     // Start is called before the first frame update
     void Start()
     {
+        MPWin = gameObject.AddComponent<AudioSource>();
+        MPWin.clip = audioWin;
+
+        MPWin.Play();
+
         highscore = PlayerPrefs.GetInt("HS", 0);
 
         if (Coins.score > highscore)

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FollowTarget : MonoBehaviour
 {
+    AudioSource audioData;
+
     public Transform player;
     //public Transform Bg1;
     //public Transform Bg2;
@@ -13,7 +15,9 @@ public class FollowTarget : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        audioData = GetComponent<AudioSource>();
+        audioData.Play(0);
+        audioData.loop = true;
     }
 
     // Update is called once per frame

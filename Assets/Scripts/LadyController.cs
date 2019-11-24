@@ -14,11 +14,29 @@ public class LadyController : MonoBehaviour
 
     Animator anim;
 
+    public AudioClip audioEarnCoint;
+    private AudioSource MPEarnCoint;
+
+    public AudioClip audioEarnItems;
+    private AudioSource MPEarnItems;
+
+    public AudioClip audioUseItems;
+    private AudioSource MPUseItems;
+
     // Use this for initialization
     private void Start()
     {
         anim = GetComponent<Animator>();
         Coins.scene = SceneManager.GetActiveScene().buildIndex;
+
+        MPEarnCoint = gameObject.AddComponent<AudioSource>();
+        MPEarnCoint.clip = audioEarnCoint;
+
+        MPEarnItems = gameObject.AddComponent<AudioSource>();
+        MPEarnItems.clip = audioEarnItems;
+
+        MPUseItems = gameObject.AddComponent<AudioSource>();
+        MPUseItems.clip = audioUseItems;
     }
 
     // Update is called once per frame
@@ -121,12 +139,14 @@ public class LadyController : MonoBehaviour
         {
             Coins.score += 15;
             Destroy(collision.gameObject);
+            MPEarnCoint.Play();
         }
 
         if (collision.transform.tag.Equals("SpecialItem"))
         {
             superJump = 1;
             Destroy(collision.gameObject);
+            MPEarnItems.Play();
         }
     }
 
@@ -161,6 +181,7 @@ public class LadyController : MonoBehaviour
         {
             isSuperJump = true;
             superJump = 0;
+            MPUseItems.Play();
         }
     }
 
