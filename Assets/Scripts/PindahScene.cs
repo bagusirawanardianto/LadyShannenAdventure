@@ -6,10 +6,14 @@ using UnityEngine.SceneManagement;
 public class PindahScene : MonoBehaviour
 {
     public bool isEscapeToExit;
+
+    AudioSource audioData;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioData = GetComponent<AudioSource>();
+        audioData.Play(0);
+        audioData.loop = true;
     }
 
     // Update is called once per frame
