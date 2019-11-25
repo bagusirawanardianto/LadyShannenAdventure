@@ -8,7 +8,6 @@ TagManager:
   - Coin
   - Trap
   - SpecialItem
-  - Dinosaurus
   layers:
   - Default
   - TransparentFX
