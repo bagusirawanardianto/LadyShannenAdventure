@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Died_Dinosaurus
+  m_Name: DinoWalk
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -17,29 +17,8 @@ AnimationClip:
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
-  m_PPtrCurves:
-  - curve:
-    - time: 0
-      value: {fileID: 21300000, guid: 461e8dcefcf28a146b070864ec78b455, type: 3}
-    - time: 0.083333336
-      value: {fileID: 21300000, guid: ef35b9731ae5a98468c375db761d404c, type: 3}
-    - time: 0.16666667
-      value: {fileID: 21300000, guid: 9e0050a2a7ba38447a589d0e74c96fce, type: 3}
-    - time: 0.25
-      value: {fileID: 21300000, guid: f9aca07819721c7419a2623f01ed3e13, type: 3}
-    - time: 0.33333334
-      value: {fileID: 21300000, guid: 1b3e3fb9406d611418cb91c7337ab428, type: 3}
-    - time: 0.41666666
-      value: {fileID: 21300000, guid: 525dfbe537e71b04382dce93f633e453, type: 3}
-    - time: 0.5
-      value: {fileID: 21300000, guid: 54aee02c70004774e82abf6087af1d25, type: 3}
-    - time: 0.5833333
-      value: {fileID: 21300000, guid: ad3ac1e1967002f4cb0155cef71a5a20, type: 3}
-    attribute: m_Sprite
-    path: 
-    classID: 212
-    script: {fileID: 0}
-  m_SampleRate: 12
+  m_PPtrCurves: []
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -52,7 +31,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6666666
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

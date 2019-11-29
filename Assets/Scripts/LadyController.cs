@@ -23,6 +23,11 @@ public class LadyController : MonoBehaviour
     public AudioClip audioUseItems;
     private AudioSource MPUseItems;
 
+    public AudioClip audioPeluruItems;
+    private AudioSource MPPeluruItems;
+
+    public Rigidbody2D rbd;
+
     // Use this for initialization
     private void Start()
     {
@@ -37,6 +42,9 @@ public class LadyController : MonoBehaviour
 
         MPUseItems = gameObject.AddComponent<AudioSource>();
         MPUseItems.clip = audioUseItems;
+
+        MPPeluruItems = gameObject.AddComponent<AudioSource>();
+        MPPeluruItems.clip = audioPeluruItems;
     }
 
     // Update is called once per frame
@@ -147,6 +155,12 @@ public class LadyController : MonoBehaviour
             superJump = 1;
             Destroy(collision.gameObject);
             MPEarnItems.Play();
+        }
+
+        if (collision.transform.tag.Equals("Bullet"))
+        {
+            rbd.velocity = new Vector2(6f, rbd.velocity.y);
+            MPPeluruItems.Play();
         }
     }
 

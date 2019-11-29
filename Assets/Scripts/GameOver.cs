@@ -32,4 +32,8 @@ public class GameOver : MonoBehaviour
         SceneManager.LoadScene(Coins.scene);
     }
 
+    public void Exit()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }

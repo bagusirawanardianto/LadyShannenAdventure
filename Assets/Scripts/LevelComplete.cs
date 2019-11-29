@@ -49,4 +49,9 @@ public class LevelComplete : MonoBehaviour
         Coins.score = 0;
         SceneManager.LoadScene(Coins.scene+1);
     }
+
+    public void Home()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }

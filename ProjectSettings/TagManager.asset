@@ -8,6 +8,8 @@ TagManager:
   - Coin
   - Trap
   - SpecialItem
+  - Boss
+  - Bullet
   layers:
   - Default
   - TransparentFX
